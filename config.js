@@ -18,4 +18,5 @@ module.exports = {
   recaptchaSecretKey: process.env.RECAPTCHA_SECRET || null,
   // default locale
   locale: process.env.LOCALE || "en",
+  gaTrackingid: process.env.GA_TRACKING_ID || null,
 };
